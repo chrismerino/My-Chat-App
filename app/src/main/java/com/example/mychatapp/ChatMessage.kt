@@ -1,4 +1,7 @@
 package com.example.mychatapp
 
-class ChatMessage {
+data class ChatMessage(
+    var name: String = "",
+    var message: String = ""
+) {
 }
